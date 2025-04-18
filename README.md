@@ -1,12 +1,84 @@
-# React + Vite
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that streamlines the management of appointments, diagnosis, patient history, and medical records for healthcare professionals.
+🚀 Features
+👨‍⚕️ Frontend (React.js + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    Dashboard: Quick access to appointments, diagnosis forms, and notifications.
 
-Currently, two official plugins are available:
+    Appointment Management: View patient details, slots, and trigger diagnosis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Diagnosis Form: Enter patient symptoms, prescriptions, and treatment notes.
 
-## Expanding the ESLint configuration
+    Patient History Viewer: View patient medical history, allergies, ongoing medications, and emergency contacts.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Backend (Node.js + Express.js)
+
+    RESTful APIs: For appointment scheduling, diagnosis logging, and patient data retrieval.
+
+    Middleware: Error handling, logging, and CORS integration.
+
+    Authentication (optional): Add JWT for protected routes.
+
+🗄️ Database (MongoDB)
+
+    Stores structured records of patients, appointments, prescriptions, and history with a flexible schema design.
+
+    📁 Folder Structure
+
+/public
+  └── static assets (images, index.html)
+  
+/src
+  ├── components/
+  ├── pages/
+  ├── services/ (API handlers via Axios)
+  ├── utils/
+  └── App.jsx, main.jsx, etc.
+
+/server
+  ├── models/
+  ├── routes/
+  ├── controllers/
+  └── index.js
+
+🧰 Tech Stack
+
+    Frontend: React.js, Vite, JavaScript (ES6+), Axios, HTML5, CSS3, ESLint
+
+    Backend: Node.js, Express.js
+
+    Database: MongoDB (Mongoose ODM)
+
+    Dev Tools: VS Code, Chrome DevTools, Postman
+
+🖥️ Installation
+
+    Clone the repo
+
+git clone https://github.com/your-username/doctor-patient-management.git
+cd doctor-patient-management
+
+Install frontend dependencies
+
+cd client
+npm install
+
+Install backend dependencies
+
+cd ../server
+npm install
+
+Environment setup
+Create a .env file in /server with:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+Run the app
+
+# Backend
+cd server
+npm run dev
+
+# Frontend
+cd ../client
+npm run dev
