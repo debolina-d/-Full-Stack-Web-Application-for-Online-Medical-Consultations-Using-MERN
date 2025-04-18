@@ -1,4 +1,4 @@
-A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that streamlines the management of appointments, diagnosis, patient history, and medical records for healthcare professionals.
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that streamlines the management of appointments, diagnosis, patient history, and medical records for healthcare professionals and patients.
 🚀 Features
 👨‍⚕️ Frontend (React.js + Vite)
 
