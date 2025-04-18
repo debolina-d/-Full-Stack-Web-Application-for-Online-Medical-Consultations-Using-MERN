@@ -54,7 +54,8 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that 
 
     Clone the repo
 
-git clone https://github.com/your-username/doctor-patient-management.git
+git clone https://github.com/debolina-d/-Full-Stack-Web-Application-for-Online-Medical-Consultations-Using-MERN.git
+
 cd doctor-patient-management
 
 Install frontend dependencies
